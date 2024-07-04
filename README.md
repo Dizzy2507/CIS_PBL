@@ -34,5 +34,15 @@ Ensure you have the following installed on your computer:
 First, clone the repository from GitHub to your local machine.
 
 ```sh
-git clone https://github.com/your-username/cybersecurity-website.git
-cd cybersecurity-website
+git clone https://github.com/programmeramit/cybersecurity-knowledge
+cd cybersecurity-knowledge
+
+```
+Start the development server to run the website locally
+
+```sh
+npm start
+# or
+yarn start
+```
+By following these steps, you will have the Cybersecurity Educational Website up and running on your computer. Enjoy exploring and enhancing your cybersecurity knowledge!
