@@ -41,8 +41,7 @@ cd cybersecurity-knowledge
 Start the development server to run the website locally
 
 ```sh
+npm install
 npm start
-# or
-yarn start
 ```
 By following these steps, you will have the Cybersecurity Educational Website up and running on your computer. Enjoy exploring and enhancing your cybersecurity knowledge!
