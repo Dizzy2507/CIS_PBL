@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption Techniques</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cryptography Techniques</h1>
+            <p>Select a technique and input your string to see the result.</p>
+        </header>
+        
+        <section class="selection">
+            <label for="technique">Select Technique:</label>
+            <select id="technique" onchange="updateOptions()">
+                <option value="">--Choose an option--</option>
+                <option value="substitution">Substitution</option>
+                <option value="transposition">Transposition</option>
+            </select>
+        </section>
+
+        <section id="options" class="options">
+            <!-- Options will be dynamically added here -->
+        </section>
+
+        <section class="result">
+            <h2>Result</h2>
+            <p id="result"></p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
